@@ -44,7 +44,8 @@ body {
     color: var(--color-white);
     /* height between each line */
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture.png);
+    background-image: url(./assets/bg-textture.png);
+    /* background-image: url(../src/assets/bg-texture.png); */
 }
 
 /*  ================== GENERAL STYLES ==================*/
@@ -60,6 +61,7 @@ h1, h2, h3, h4, h5 {
 /* each of the component will be wrapped in a "section" element */
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 
 /* only select the direct child element of the  "section" element, "h2" & "h5" in this case*/
