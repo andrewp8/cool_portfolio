@@ -20,6 +20,7 @@
     --color-white: #fff;
     --color-light: #rgba(255,255,255, 0.6);
 
+    /* set the fast/slow motion for me-about.jpg */
     --transition:  all 400ms ease;
 
     /* setting the width of each individual container to a specific size depended on the viewport */
