@@ -5,10 +5,10 @@
 }
 
 .about__me {
-    width: 100%;
+    width: 120%;
 
     /* this set the ratio of the about__me-image background to be the size of width * 1.3 */
-    aspect-ratio: 1/1.3; 
+    aspect-ratio: 1/1; 
     border-radius: 2rem;
     background: linear-gradient(
         45deg,
@@ -23,7 +23,7 @@
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
+    transform: rotate(15deg);
 
     /* the transition smoothness btw the image and its background */
     transition: var(--transition);

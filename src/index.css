@@ -13,12 +13,12 @@
 :root {
     /* use -- to declare (check body{} to see how to call the variable after declaring) variable which can be reuse through out css file (because we are styling in the :root) */
     /* :root is the structure for the entire project */
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77,181,255,0.4);
-    --color-white: #fff;
-    --color-light: rgba(255,255,255, 0.6);
+    --color-bg: #212121;
+    --color-bg-variant: rgba(0,0,0,0.3);
+    --color-primary: #C7A983;
+    --color-primary-variant: rgb(199, 169, 131, 0.4);
+    --color-white: #fff6e2;
+    --color-light: rgba(176, 169, 161, 0.6);
 
     /* set the fast/slow motion for me-about.jpg */
     --transition:  all 400ms ease;
